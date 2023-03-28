@@ -114,6 +114,13 @@
   }
 }
 
+.navbar {
+  transition: .3s ease-in-out;
+  &.navbar-stuck{
+    box-shadow: 0px 4px 24px #00000010;
+  }
+}
+
 .me-0 {
   margin-left: 0 !important;
 }
